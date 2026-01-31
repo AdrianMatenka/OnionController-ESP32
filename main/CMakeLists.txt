@@ -1,0 +1,13 @@
+idf_component_register(
+    SRCS 
+        "OnionController.c"
+        "onion_ble.c"
+        "onion_touch.c"
+    INCLUDE_DIRS 
+        "."
+    REQUIRES 
+        bt
+        nvs_flash
+        driver
+        esp_timer
+)
