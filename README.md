@@ -25,7 +25,7 @@ Transform your ESP32 into a wireless, touch-sensitive keyboard controller using 
 
 ## 📡 Protocol & Communication
 
-The firmware communicates with the [OnionConfigurator PC App](INSERT_LINK_TO_YOUR_PC_REPO_HERE) via Serial/UART:
+The firmware communicates with the [OnionConfigurator PC App](https://github.com/AdrianMatenka/OnionConfigurator-PC) via Serial/UART:
 - `CONNECT` / `DISCONNECT`: Handshake for telemetry.
 - `SET:ch,thr,key`: Update sensor parameters.
 - `RAW:v0,v1...`: Real-time ADC data streaming.
